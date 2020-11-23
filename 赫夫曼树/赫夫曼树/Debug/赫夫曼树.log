@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\11844\Desktop\2019020800058顾永鑫\赫夫曼树\赫夫曼树\赫夫曼树\Huffman.h(32,34): error C2440: “=”: 无法从“std::vector<double,std::allocator<double>>”转换为“double”
+C:\Users\11844\Desktop\2019020800058顾永鑫\赫夫曼树\赫夫曼树\赫夫曼树\Huffman.h(32,33): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Users\11844\Desktop\2019020800058顾永鑫\赫夫曼树\赫夫曼树\赫夫曼树\Huffman.h(33,22): error C2679: 二进制“=”: 没有找到接受“Huffman_Node *”类型的右操作数的运算符(或没有可接受的转换)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1175,13): message : 可能是“std::vector<Huffman_Node *,std::allocator<Huffman_Node *>> &std::vector<Huffman_Node *,std::allocator<Huffman_Node *>>::operator =(std::initializer_list<_Ty>)”
+          with
+          [
+              _Ty=Huffman_Node *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1167,13): message : 或    “std::vector<Huffman_Node *,std::allocator<Huffman_Node *>> &std::vector<Huffman_Node *,std::allocator<Huffman_Node *>>::operator =(const std::vector<Huffman_Node *,std::allocator<Huffman_Node *>> &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(664,13): message : 或    “std::vector<Huffman_Node *,std::allocator<Huffman_Node *>> &std::vector<Huffman_Node *,std::allocator<Huffman_Node *>>::operator =(std::vector<Huffman_Node *,std::allocator<Huffman_Node *>> &&) noexcept(<expr>)”
+C:\Users\11844\Desktop\2019020800058顾永鑫\赫夫曼树\赫夫曼树\赫夫曼树\Huffman.h(33,22): message : 尝试匹配参数列表“(std::vector<Huffman_Node *,std::allocator<Huffman_Node *>>, Huffman_Node *)”时
